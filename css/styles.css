@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+.gallery-photo {
+  aspect-ratio: 3/2;
+}
+.main-photo {
+  aspect-ratio: 3/1;
+}
+.white-photo {
+  aspect-ratio: 17/10;
+}
