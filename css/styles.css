@@ -3,3 +3,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+h1 {
+  color: darkmagenta;
+}
+h2 {
+  color: darkslateblue;
+}
+#element {
+  color: crimson;
+}
+.describe {
+  color: darkred;
+}
+.explain {
+  color: darkblue;
+}
+.type1 {
+  font-size: 15px;
+}
+.type2 {
+  font-size: 18px;
+}
+.type3 {
+  font-size: 20px;
+}
+.type4 {
+  font-size: 23px;
+}
+.type5 {
+  font-size: 26px;
+}
+h2 b {
+  color: rgb(29, 2, 48);
+}
