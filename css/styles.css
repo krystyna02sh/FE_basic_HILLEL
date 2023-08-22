@@ -27,11 +27,70 @@ html {
   max-width: calc(1110px + 2rem);
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
   position: relative;
+  background-color: #c4c4c4;
 }
 
 .hidden {
   display: none !important;
+}
+.wrapper {
+  background-color: #e6e6e6;
+  width: 100%;
+  max-width: 1000px;
+}
+.card {
+  width: 200px;
+  height: 200px;
+  background-color: #fc8f8f;
+  color: white;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 200px;
+}
+.card.small {
+  width: 100px;
+  height: 100px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 100px;
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.ml {
+  margin-left: 10px;
+}
+.mr {
+  margin-right: 10px;
+}
+.margin {
+  margin-right: 370px;
+}
+.margin1 {
+  margin-right: 600px;
+}
+.margin2 {
+  margin-right: 180px;
+}
+.section {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.mt {
+  margin-top: 4rem;
+}
+.mb {
+  margin-bottom: 4rem;
+}
+.title {
+  visibility: hidden;
+  margin-left: 495px;
+  margin-right: 495px;
 }
