@@ -31,6 +31,8 @@ html {
   padding-right: 4rem;
   position: relative;
   background-color: #c4c4c4;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .hidden {
@@ -70,16 +72,9 @@ html {
 .mr {
   margin-right: 10px;
 }
-.margin {
-  margin-right: 370px;
-}
-.margin1 {
-  margin-right: 600px;
-}
-.margin2 {
-  margin-right: 180px;
-}
+
 .section {
+  margin-top: 70px;
   margin-left: 70px;
   margin-right: 70px;
 }
@@ -89,8 +84,6 @@ html {
 .mb {
   margin-bottom: 4rem;
 }
-.title {
-  visibility: hidden;
-  margin-left: 495px;
-  margin-right: 495px;
+.clearfix {
+  clear: both;
 }
