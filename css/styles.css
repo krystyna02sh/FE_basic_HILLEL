@@ -15,23 +15,54 @@ img {
 }
 
 html {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: "Pacifico", sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
   font-weight: 400;
-  color: #353535;
+  color: #909090;
 }
 
 .container {
   width: 100%;
-  max-width: calc(1110px + 2rem);
+  max-width: calc(300px + 2rem);
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 1rem;
   position: relative;
 }
-
+.shadow {
+  border-radius: 1rem;
+  box-shadow: 0px 0px 30px rgba(50, 50, 100, 0.25);
+}
 .hidden {
   display: none !important;
+}
+
+.title {
+  color: #303030;
+  font-weight: 700;
+}
+.blue {
+  color: blue;
+  margin-left: 110px;
+  margin-right: 10px;
+}
+.photo {
+  aspect-ratio: 1/1;
+  border-radius: 0.5rem;
+}
+.card-top {
+  max-height: 450px;
+}
+.margin {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.card-bottom {
+  padding: 10px;
+}
+.line {
+  margin-top: 10px;
 }
