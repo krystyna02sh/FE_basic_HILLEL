@@ -2,9 +2,8 @@
   --container-width: 1900px;
   --basic-space: 1rem;
   --basic-color: #34547a;
-  --secondary-color: #eeeff1;
   --basic-background: #eeeff1;
-  --logo-color: #ffffff;
+  --secondary-color: #ffffff;
   --text-color: #727272;
   --text-size: 16px;
 }
@@ -31,28 +30,28 @@ html {
   font-weight: 400;
   color: var(--text-color);
 }
-
+.container {
+  width: 100%;
+  max-width: calc(var(--container-width) + var(--basic-space) * 2);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: calc(var(--basic-space) * 25);
+  padding-right: calc(var(--basic-space) * 25);
+  position: relative;
+}
 .hidden {
   display: none !important;
 }
+/* header */
 header {
-  max-width: 100%;
-  max-height: 100%;
-  background-color: #eeeff1;
+  background-color: var(--basic-background);
   padding-top: 80px;
-  padding-bottom: 75px;
-  padding-left: 300px;
-  padding-right: 780px;
-}
-.title-section {
-  max-width: 100%;
-  max-height: 100%;
-  background-color: #eeeff1;
-  padding-top: 75px;
   padding-bottom: 140px;
-  padding-left: 300px;
-  padding-right: 780px;
 }
+.nav {
+  margin-bottom: calc(var(--basic-space) * 9.5);
+}
+
 .link {
   color: #000000;
   margin-left: 40px;
@@ -68,6 +67,7 @@ header {
   text-align: left;
 }
 .text-title {
+  max-width: 540px;
   margin-top: 60px;
   margin-bottom: 65px;
 }
@@ -78,27 +78,16 @@ header {
   background-color: var(--basic-color);
   color: var(--secondary-color);
 }
+/* about me */
 
-.first-cont {
-  /* margin-left: 100px;
-  margin-right: 100px; */
+.myself {
+  width: 100%;
+  background-color: var(--secondary-color);
+  padding-top: calc(var(--basic-space) * 7);
+  padding-bottom: 100px;
 }
 .container-description {
   width: 100%;
-  height: 100%;
-}
-.myself {
-  width: 100%;
-  height: 100%;
-  background-color: var(--basic-background);
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 690px;
-  padding-right: 690px;
-}
-.work-container {
-  margin-right: 100px;
-  margin-left: 100px;
 }
 .my-title {
   text-align: center;
@@ -106,30 +95,35 @@ header {
   font-weight: 500;
   font-size: 32px;
   line-height: 1.2;
-  margin-top: 60px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 .my-description {
+  max-width: 540px;
   text-align: center;
-  margin-top: 25px;
-  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
+/* logo section */
 .logo-section {
   background-color: var(--basic-color);
-  padding-left: 400px;
-  padding-right: 400px;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.logo-container {
+  width: 100%;
+  padding-left: ;
+  padding-right: ;
 }
 .list {
   list-style: none;
   display: inline-flex;
 }
 .logo {
+  display: inline;
   margin-right: 50px;
 }
 .text {
-  color: var(--logo-color);
+  color: var(--secondary-color);
 }
 
 .number {
@@ -137,39 +131,44 @@ header {
   font-size: 21px;
   line-height: 1.2;
   text-align: left;
-  color: var(--logo-color);
+  color: var(--secondary-color);
 }
 .mr {
   width: 50px;
   aspect-ratio: 1/1;
   margin-right: 20px;
 }
+/* work */
+.work-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
 .video-cont {
-  width: 1110px;
-  height: 600px;
+  min-width: 1110px;
+  aspect-ratio: 1.85/1;
 }
 .work-section {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: 405px;
-  margin-right: 405px;
+  background-color: var(--basic-background);
+  padding-top: 100px;
+  padding-bottom: 60px;
 }
 .text-work {
+  max-width: 540px;
   margin-top: 50px;
-  margin-bottom: 60px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
+/* footer */
 .footer {
-  max-height: 150px;
   width: 100%;
-  height: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 405px;
   background-color: var(--basic-color);
 }
 .name {
-  color: var(--logo-color);
+  color: var(--secondary-color);
   font-weight: 500;
   font-size: 21px;
   line-height: 1.2;
@@ -178,5 +177,5 @@ header {
 .reserved {
   font-size: 21px;
   text-align: left;
-  color: var(--logo-color);
+  color: var(--secondary-color);
 }
