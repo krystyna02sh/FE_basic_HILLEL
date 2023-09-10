@@ -19,7 +19,7 @@ html {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
-  color: #353535;
+  color: aliceblue;
 }
 
 .container {
@@ -34,4 +34,68 @@ html {
 
 .hidden {
   display: none !important;
+}
+.menu {
+  background-color: #353535;
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu > li {
+  width: 24.7%;
+  display: inline-block;
+  position: relative;
+  background-color: #353535;
+  border: 1px solid;
+  border-color: #333;
+  padding-left: 94px;
+  padding-right: 94px;
+}
+
+.menu > li:hover {
+  background-color: #2196f3;
+}
+.menu-product {
+  width: 100%;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #353535;
+  border: 1px solid;
+  border-color: #333;
+  z-index: 1;
+}
+.menu-product > li:hover {
+  background-color: #2196f3;
+}
+.menu > li:hover .menu-product {
+  display: block;
+}
+
+.menu-product li {
+  display: block;
+}
+
+.menu-item {
+  width: 100%;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  background-color: #353535;
+  border: 1px solid;
+  border-color: #333;
+  z-index: 1;
+}
+.menu-item > li:hover {
+  background-color: #2196f3;
+}
+.menu-product li:hover .menu-item {
+  display: block;
+}
+
+.menu-item li {
+  display: block;
 }

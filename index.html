@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lesson template</title>
+    <title>menu</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -13,14 +13,24 @@
     <main>
       <section>
         <div class="container">
-          <h1>Lesson template</h1>
-          <img src="./images/nature.avif" alt="nature" width="500" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum totam
-            expedita consequatur ab blanditiis quo odit nostrum laudantium
-            architecto obcaecati eos impedit itaque nihil quas, reprehenderit
-            corrupti hic voluptatum atque!
-          </p>
+          <ul class="menu">
+            <li><a href="#">HOME</a></li>
+            <li>
+              <a href="#">PRODUCT +</a>
+              <ul class="menu-product">
+                <li><a href="#">Product 1</a></li>
+                <li>
+                  <a href="#">Product 2</a>
+                  <ul class="menu-item">
+                    <li><a href="#">Sub Item</a></li>
+                    <li><a href="#">Sub-Item</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
         </div>
       </section>
     </main>
