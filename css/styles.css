@@ -47,7 +47,6 @@ body {
   background-image: url(../images/bg.jpg);
   background-size: 100%;
   height: 100vh;
-  /* background-repeat: no-repeat; */
 }
 main {
   background-color: #e9e9e940;
@@ -58,32 +57,14 @@ main {
   line-height: 100vh;
   padding-left: 80px;
   padding-right: 80px;
+  padding-top: 60px;
 }
 section {
   display: inline-block;
   width: 100%;
   line-height: 1.5;
 }
-
-.login {
-  width: 340px;
-  height: 44px;
-  background-color: #929191;
-  border: 1px;
-  border-color: #ffffff;
-  border-radius: 30px;
-
-  padding: 20px;
-}
-
-button {
-  background-color: #153416;
-  width: 340px;
-  height: 44px;
-  border-radius: 30px;
-  border: none;
-}
-
+/* Header styles */
 .navigation {
   width: 100%;
   min-height: 35px;
@@ -111,9 +92,6 @@ header {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.link {
-  display: inline-block;
-}
 .reg {
   width: 45%;
   min-height: 35px;
@@ -124,38 +102,39 @@ header {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.log {
-  margin-bottom: 15px;
+.link {
+  display: inline-block;
 }
+
+/* registration column styles */
 .title {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 30px;
 }
-.forgotten {
-  color: #153416;
-  text-decoration-line: underline;
-  float: right;
+.login {
+  width: 340px;
+  height: 44px;
+  background-color: #929191;
+  border: 1px;
+  border-color: #ffffff;
+  border-radius: 30px;
+  padding: 20px;
 }
-.button {
-  margin-top: 30px;
-  margin-bottom: 40px;
+input[type="text"]::placeholder {
+  color: inherit;
 }
-.account {
-  color: #153416;
-  margin-right: 15px;
+input:focus {
+  border: none;
+  outline: none;
 }
-.account-cont {
-  padding-left: 60px;
-  padding-right: 40px;
+.log {
+  margin-bottom: 15px;
 }
+/* checkbox styles */
 #get_news {
   background: rgba(0, 0, 0, 0);
   border-radius: 2px;
-  /* background: #e9e9e940; */
-}
-input[type="text"]::-webkit-input-placeholder {
-  color: inherit;
 }
 
 #checkbox {
@@ -163,10 +142,7 @@ input[type="text"]::-webkit-input-placeholder {
   height: 0;
   position: absolute;
 }
-input:focus {
-  border: none;
-  outline: none;
-}
+
 .checkbox {
   display: inline-block;
   width: 15px;
@@ -180,4 +156,31 @@ input:focus {
 }
 .label {
   position: relative;
+}
+/* button and link styles */
+.forgotten {
+  color: #153416;
+  text-decoration-line: underline;
+  float: right;
+}
+
+button {
+  background-color: #153416;
+  width: 340px;
+  height: 44px;
+  border-radius: 30px;
+  border: none;
+}
+
+.button {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.account {
+  color: #153416;
+  margin-right: 15px;
+}
+.account-cont {
+  padding-left: 60px;
+  padding-right: 40px;
 }
