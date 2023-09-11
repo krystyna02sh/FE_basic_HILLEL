@@ -71,6 +71,9 @@ section {
   border-radius: 30px;
   border: 1px solid;
   border-color: #153416;
+  padding-top: 1px;
+  padding-left: 1px;
+  padding-bottom: 0.5px;
 }
 header {
   background-color: #e9e9e940;
