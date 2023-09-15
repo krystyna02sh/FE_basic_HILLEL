@@ -70,14 +70,12 @@ html {
 .menu-product > li:hover {
   background-color: #2196f3;
 }
-.menu > li:hover .menu-product {
+.main-menu:hover > .menu-product {
   display: block;
 }
-
-.menu-product li {
+.submenu:hover > .menu-item {
   display: block;
 }
-
 .menu-item {
   width: 100%;
   display: none;
@@ -92,10 +90,6 @@ html {
 .menu-item > li:hover {
   background-color: #2196f3;
 }
-.menu-product li:hover .menu-item {
-  display: block;
-}
-
-.menu-item li {
-  display: block;
+.plus {
+  text-align: right;
 }
