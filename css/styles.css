@@ -8,23 +8,27 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+button {
+  font-style: inherit;
+}
 img {
   display: block;
   max-width: 100%;
 }
-
+li {
+  list-style-type: none;
+}
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
-  color: #353535;
+  color: #000000;
 }
 
 .container {
   width: 100%;
-  max-width: calc(1110px + 2rem);
+  max-width: calc(1440px + 2rem);
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
@@ -34,4 +38,335 @@ html {
 
 .hidden {
   display: none !important;
+}
+/* header styles */
+
+.head-container {
+  display: flex;
+  justify-content: space-between;
+}
+.shopping {
+  text-align: center;
+  display: inline-block;
+  color: #68513f;
+  background-color: #e7ded8;
+  width: 24px;
+  aspect-ratio: 1/1;
+}
+.mr {
+  margin-right: 40px;
+}
+.font-header {
+  font-family: "Inter";
+  font-size: 17px;
+  line-height: 1.15;
+}
+/* first section */
+.backgr-image {
+  background: url(../images/background-face.jpg);
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: right;
+  aspect-ratio: 16/9;
+}
+.face-container {
+  padding-top: 150px;
+}
+.discover {
+  max-width: 510px;
+  font-family: "STSong";
+  font-size: 88px;
+  line-height: 1.43;
+  text-align: left;
+  z-index: 0;
+}
+.you {
+  font-family: "StyleScript";
+  font-size: 175px;
+  line-height: 1.04;
+  text-align: left;
+  color: #68513f;
+  transform: rotate(5.54deg);
+  position: absolute;
+  bottom: 170px;
+  left: 420px;
+}
+button {
+  background-color: #f1ebe7;
+  border: 1px solid;
+  border-color: #dacec6;
+  color: #68513f;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 0.7;
+}
+/* second section */
+.scincare-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-right: 90px;
+  padding-left: 90px;
+  padding-top: 240px;
+  padding-bottom: 210px;
+}
+.text-scincare {
+  max-width: 650px;
+}
+.skin-text {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.hands {
+  position: absolute;
+  top: 120px;
+  left: 90px;
+}
+.small-b {
+  position: absolute;
+  left: 140px;
+  bottom: 160px;
+}
+.girls {
+  position: absolute;
+  top: 20px;
+  right: 250px;
+}
+.stone {
+  position: absolute;
+  top: 250px;
+  right: 12px;
+}
+.masque {
+  position: absolute;
+  right: 110px;
+  bottom: 70px;
+}
+.natur-text {
+  font-family: STSong;
+  font-size: 70px;
+  line-height: 1.4;
+  text-align: center;
+}
+.brown-title {
+  font-family: StyleScript;
+  font-size: 140px;
+  line-height: 0.8;
+  text-align: center;
+  color: #68513f;
+}
+.rotate-title-1 {
+  transform: rotate(-5.08deg);
+}
+.scin-text {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.shop-button {
+  border-radius: 73px;
+}
+.shop-cont {
+  display: flex;
+  justify-content: center;
+}
+/* third section */
+.third-section {
+  padding-top: 90px;
+}
+.bath-cont {
+  margin-bottom: 90px;
+}
+.bath-image {
+  width: 100%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  max-width: 325px;
+  height: 480px;
+  background-color: #e7ded8;
+  border-radius: 10px;
+}
+.card-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-but {
+  padding-left: 110px;
+  padding-right: 110px;
+  border-radius: 5px;
+}
+.products {
+  margin-top: 90px;
+  margin-bottom: 5px;
+}
+.mr {
+  margin-right: 14px;
+}
+.pr-type {
+  display: inline;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.card-image {
+  margin-bottom: 20px;
+}
+.text-right {
+  text-align: right;
+}
+.pr-name {
+  font-size: 23px;
+}
+.small-text {
+  display: flex;
+  justify-content: space-between;
+}
+/* feature section */
+.feature-section {
+  padding-top: 125px;
+}
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 460px;
+  text-align: center;
+}
+.lh {
+  line-height: 1.8;
+}
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+}
+.text-logo {
+  font-size: 28px;
+  line-height: 1.4;
+  text-align: center;
+}
+.cont {
+  margin-bottom: 55px;
+  max-width: 830px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.general-l {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+/* blog section */
+.blog {
+  padding-bottom: 130px;
+}
+.image-woman {
+  display: flex;
+  margin-bottom: 90px;
+}
+.image-w {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+.card-f-cont {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.br {
+  border-radius: 60px;
+}
+.card-f {
+  display: flex;
+  justify-content: space-around;
+}
+.blog-text {
+  font-family: STSong;
+  font-size: 28px;
+  line-height: 1.3;
+  letter-spacing: 0em;
+}
+.but-text {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 270px;
+}
+/* footer */
+.flex {
+  margin-bottom: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 60px;
+  padding-top: 50px;
+
+  background-color: #e7ded8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.produced {
+  font-size: 14px;
+  line-height: 1.4;
+  max-width: 190px;
+}
+.wise {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.brown-text {
+  color: #68513f;
+}
+.work-date {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  max-width: 250px;
+}
+.navigation-page {
+  max-width: 250px;
+}
+.contact {
+  max-width: 250px;
+}
+.navigation-cont {
+  margin-top: 30px;
+  display: flex;
+}
+.margin {
+  margin-right: 50px;
+}
+.page-title {
+  font-family: STSong;
+  font-size: 24px;
+  line-height: 1.6;
+}
+.contact-title {
+  font-family: STSong;
+  font-size: 27px;
+}
+.mailto {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.flex-logo {
+  padding-right: 60px;
+  display: flex;
+  justify-content: space-between;
 }
