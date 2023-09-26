@@ -43,7 +43,15 @@ html {
   padding-right: 1rem;
   position: relative;
 }
-
+.container-for-img {
+  width: 100%;
+  max-width: calc(1440px + 2rem);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+}
 .hidden {
   display: none !important;
 }
@@ -282,6 +290,32 @@ button {
   padding-right: 300px;
 }
 /* blog section */
+.white-border {
+  width: 150px;
+  padding-top: 65px;
+  aspect-ratio: 1/1;
+  border: 1px solid;
+  border-color: #ffffff;
+  position: absolute;
+  bottom: 184px;
+}
+.title-img {
+  font-family: Inter;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+}
+
+.left {
+  left: 90px;
+}
+.center {
+  right: 702px;
+}
+.right {
+  right: 184px;
+}
 .blog {
   padding-bottom: 130px;
 }
