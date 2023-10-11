@@ -68,30 +68,36 @@
             </nav>
           </div>
           <div class="grid item-3">
-            <div>
+            <div class="burger-container" data-target="#myWindow">
               <svg
-                class="burger"
                 width="32"
                 height="32"
                 viewBox="0 0 32 32"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
+                <rect
+                  class="burger"
+                  width="32"
+                  height="32"
+                  rx="8"
+                  fill="#ffff"
+                />
                 <path d="M7 10H25" stroke="#323264" stroke-width="2" />
                 <path d="M7 16H25" stroke="#323264" stroke-width="2" />
                 <path d="M7 22H25" stroke="#323264" stroke-width="2" />
               </svg>
-
-              <nav>
-                <ul class="flex-nav">
-                  <li class="page mr"><a href="#">about us</a></li>
-                  <li class="page mr"><a href="#">services</a></li>
-                  <li class="page mr hovered"><a href="#">team</a></li>
-                  <li class="page mr"><a href="#">publications</a></li>
-                  <li class="page"><a href="#">team</a></li>
-                </ul>
-              </nav>
             </div>
+            <nav class="wrapper-nav" data-target="#myWindow">
+              <ul id="myWindow" class="flex-nav">
+                <span class="close">&times;</span>
+                <li class="page mr"><a href="#">about us</a></li>
+                <li class="page mr"><a href="#">services</a></li>
+                <li class="page mr hovered"><a href="#">team</a></li>
+                <li class="page mr"><a href="#">publications</a></li>
+                <li class="page"><a href="#">team</a></li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
@@ -367,6 +373,7 @@
         </div>
       </div>
     </footer>
+    <script src="./assets/code.jquery.com_jquery-3.7.1.min.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
