@@ -1,4 +1,4 @@
-console.log('It work!');
+
 
 $('.burger-container').click(function () {
     $('.burger-container').toggleClass('active');
@@ -9,7 +9,7 @@ $('.burger-container').click(function () {
     $('target').addClass('active');
 });
 
-$('.wrapper-nav, .flex-nav .close').click(function (event) {
+$('.wrapper-nav, .flex-nav,.close').click(function (event) {
     if (this === event.target) {
         $('.wrapper-nav').removeClass('active');
         $('.flex-nav').removeClass('active');

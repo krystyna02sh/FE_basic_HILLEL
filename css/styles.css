@@ -160,11 +160,14 @@ html {
   transition: 0.3s linear;
   fill: #f0145a;
 }
-.burger {
+.burger-container {
   display: none;
 }
 .align {
   font-weight: 700;
+}
+.close {
+  display: none;
 }
 /* footer styles */
 .wrapper-f {
@@ -429,10 +432,10 @@ html {
   .flex-nav.active {
     display: block;
   }
-  .burger {
+  .burger-container {
     display: block;
   }
-  .burger.active {
+  .burger-container .active {
     fill: #e6e6f0;
   }
   .grid.item-3 {
